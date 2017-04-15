@@ -21,5 +21,6 @@ docker run \
     --health-retries 20 \
     --health-timeout 1s \
     --detach \
+    --restart always \
     ${IMAGE_NAME}
 ```
